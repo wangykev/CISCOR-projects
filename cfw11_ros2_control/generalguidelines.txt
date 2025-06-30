@@ -1,0 +1,27 @@
+CFW-11 Modbus RTU Cheat Sheet
+📦 Common Registers
+Register	Parameter	Direction	Meaning	Example Value
+0	P0000	R/W	General purpose	—
+2	P0002	R	Motor speed (feedback, RPM)	1000 = 1000 rpm
+3	P0003	R	Motor current (×10)	35 = 3.5 A
+100	P0100	R/W	Accel time (0.1s resolution)	10 = 1.0 s
+101	P0101	R/W	Decel time (0.1s resolution)	20 = 2.0 s
+220	P0220	R/W	Control source (LOCAL/REMOTE)	6 = USB/serial
+221	P0221	R/W	Speed source (LOCAL)	—
+222	P0222	R/W	Speed source (REMOTE)	9 = USB/serial
+226	P0226	R/W	FWD/REV source (REMOTE)	5 = USB/serial
+227	P0227	R/W	Start/Stop source (REMOTE)	2 = USB/serial
+682	P0682	W	Control word	Bitfield (see below)
+683	P0683	W	Speed reference (13-bit)	4096 = 900 rpm
+
+🕹️ Control Word (P0682, Register 682)
+This is how you start/stop the motor and set direction via bits.
+
+Bit	Meaning	Value to set
+0	Start/Stop	1 = run, 0 = stop
+1	General Enable	1 = enable
+2	Direction	1 = forward, 0 = reverse
+4	LOCAL/REMOTE	1 = remote
+
+🧠 Recommended value to RUN forward: 0x0013 (binary: 0001 0011)
+Means: Enable + Run + Remote + Forward
