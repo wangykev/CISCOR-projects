@@ -48,7 +48,7 @@ ros2 topic echo /cfw11/actual_rpm
 
 
 
-🧩 CFW-11 Drive Parameters
+## 🧩 CFW-11 Drive Parameters
 | Parameter | Value | Description                   |
 | --------- | ----- | ----------------------------- |
 | P0220     | 1     | Always REM mode               |
@@ -56,7 +56,8 @@ ros2 topic echo /cfw11/actual_rpm
 | P0227     | 2     | Run/Stop from serial (P0682)  |
 
 
-📦 Notes
+## 📦 Notes
+
 If ros2 run fails, make sure you sourced install/setup.bash
 
 You can also run the node directly:
