@@ -49,11 +49,11 @@ ros2 topic echo /cfw11/actual_rpm
 
 
 ## 🧩 CFW-11 Drive Parameters
-| Parameter | Value | Description                   |
-| --------- | ----- | ----------------------------- |
-| P0220     | 1     | Always REM mode               |
-| P0222     | 9     | Speed ref from serial (P0683) |
-| P0227     | 2     | Run/Stop from serial (P0682)  |
+| Parameter |      Value       |        Description            |
+| --------- | -----------------| ----------------------------- |
+| P0220     | 1 (Always REM)   | Always REM mode               |
+| P0222     | 9 (serial/usb)   | Speed ref from serial (P0683) |
+| P0227     | 2 (serial/usb)   | Run/Stop from serial (P0682)  |
 
 
 ## 📦 Notes
