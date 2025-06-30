@@ -28,16 +28,23 @@ colcon build
 source install/setup.bash
 
 ros2 run cfw11_ros2_control treadmill_node
+```
 
 
-Then send commands
+## Then send commands (adjust for anything)
+
+```bash
 ros2 topic pub /cfw11/set_rpm std_msgs/Float32 "data: 20.0"
 ros2 topic pub /cfw11/run std_msgs/Bool "data: true"
 ros2 topic pub /cfw11/run std_msgs/Bool "data: false"
+```
 
 
-Monitor actual speed 
+## Monitor actual speed 
+
+```bash
 ros2 topic echo /cfw11/actual_rpm
+```
 
 
 
