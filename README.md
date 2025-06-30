@@ -2,14 +2,14 @@
 
 This is a ROS 2 Python package for controlling a WEG CFW-11 VFD over Modbus RTU using a USB-RS485 adapter.
 
-## ✅ Features
+## Features
 
 - Connects to the CFW-11 using Modbus RTU
 - Publishes current motor speed over ROS 2
 - Subscribes to run/stop and RPM setpoint commands
 - Runs as a standard ROS 2 Python node
 
-## 🛠 Requirements
+## Requirements
 
 - ROS 2 (tested with Humble or Jazzy)
 - Python 3.10+
@@ -17,7 +17,7 @@ This is a ROS 2 Python package for controlling a WEG CFW-11 VFD over Modbus RTU 
 - USB-RS485 adapter
 
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone and build
 
@@ -34,9 +34,9 @@ ros2 run cfw11_ros2_control treadmill_node
 ## Then send commands (adjust for anything)
 
 ```bash
-ros2 topic pub /cfw11/set_rpm std_msgs/Float32 "data: 20.0"
-ros2 topic pub /cfw11/run std_msgs/Bool "data: true"
-ros2 topic pub /cfw11/run std_msgs/Bool "data: false"
+ros2 topic pub --once /cfw11/set_rpm std_msgs/Float32 "data: 20.0" #set speed to 20rpm
+ros2 topic pub --once /cfw11/run std_msgs/Bool "data: true"        #enable run
+ros2 topic pub --once /cfw11/run std_msgs/Bool "data: false"       #disable run
 ```
 
 
@@ -48,7 +48,7 @@ ros2 topic echo /cfw11/actual_rpm
 
 
 
-## 🧩 CFW-11 Drive Parameters
+## CFW-11 Drive Parameters
 | Parameter |      Value       |        Description            |
 | --------- | -----------------| ----------------------------- |
 | P0220     | 1 (Always REM)   | Always REM mode               |
@@ -56,7 +56,7 @@ ros2 topic echo /cfw11/actual_rpm
 | P0227     | 2 (serial/usb)   | Run/Stop from serial (P0682)  |
 
 
-## 📦 Notes
+## Notes
 
 If ros2 run fails, make sure you sourced install/setup.bash
 
