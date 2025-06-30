@@ -1,0 +1,2 @@
+[console_scripts]
+treadmill_node = cfw11_ros2_control.treadmill_node:main

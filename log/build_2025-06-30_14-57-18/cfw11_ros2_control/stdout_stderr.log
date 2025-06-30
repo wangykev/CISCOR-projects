@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info
+writing ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/dependency_links.txt
+writing entry points to ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/entry_points.txt
+writing requirements to ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/requires.txt
+writing top-level names to ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/top_level.txt
+writing manifest file '../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build
+creating /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib
+creating /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control
+copying cfw11_ros2_control/__init__.py -> /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control
+copying cfw11_ros2_control/treadmill_node.py -> /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control
+running install
+running install_lib
+creating /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control
+copying /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control/__init__.py -> /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control
+copying /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control/treadmill_node.py -> /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control
+byte-compiling /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control/treadmill_node.py to treadmill_node.cpython-312.pyc
+running install_data
+creating /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/ament_index
+creating /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/ament_index/resource_index
+creating /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/ament_index/resource_index/packages
+copying resource/cfw11_ros2_control -> /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/cfw11_ros2_control
+running install_egg_info
+Copying ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info to /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control-0.1.0-py3.12.egg-info
+running install_scripts
+Installing treadmill_node script to /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/cfw11_ros2_control
+writing list of installed files to '/home/ciscor/CISCOR-projects/build/cfw11_ros2_control/install.log'
