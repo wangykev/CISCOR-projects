@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info
+writing ../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info/dependency_links.txt
+writing requirements to ../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info/requires.txt
+writing top-level names to ../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info/top_level.txt
+writing manifest file '../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ciscor/CISCOR-projects/build/my_rqt_speed_slider/build
+creating /home/ciscor/CISCOR-projects/build/my_rqt_speed_slider/build/lib
+creating /home/ciscor/CISCOR-projects/build/my_rqt_speed_slider/build/lib/my_rqt_speed_slider
+copying my_rqt_speed_slider/__init__.py -> /home/ciscor/CISCOR-projects/build/my_rqt_speed_slider/build/lib/my_rqt_speed_slider
+running install
+running install_lib
+creating /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/lib/python3.12/site-packages/my_rqt_speed_slider
+copying /home/ciscor/CISCOR-projects/build/my_rqt_speed_slider/build/lib/my_rqt_speed_slider/__init__.py -> /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/lib/python3.12/site-packages/my_rqt_speed_slider
+byte-compiling /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/lib/python3.12/site-packages/my_rqt_speed_slider/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/share/ament_index
+creating /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/share/ament_index/resource_index
+creating /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/share/ament_index/resource_index/packages
+copying resource/my_rqt_speed_slider -> /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/share/ament_index/resource_index/packages
+copying package.xml -> /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/share/my_rqt_speed_slider
+running install_egg_info
+Copying ../../build/my_rqt_speed_slider/my_rqt_speed_slider.egg-info to /home/ciscor/CISCOR-projects/install/my_rqt_speed_slider/lib/python3.12/site-packages/my_rqt_speed_slider-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ciscor/CISCOR-projects/build/my_rqt_speed_slider/install.log'

@@ -1,0 +1,19 @@
+[0.912s] Invoking command in '/home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ciscor/CISCOR-projects/install/my_rqt_cfw11_gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui/build --no-deps symlink_data
+[1.307s] running develop
+[1.566s] running egg_info
+[1.566s] creating my_rqt_cfw11_gui.egg-info
+[1.591s] writing my_rqt_cfw11_gui.egg-info/PKG-INFO
+[1.591s] writing dependency_links to my_rqt_cfw11_gui.egg-info/dependency_links.txt
+[1.591s] writing entry points to my_rqt_cfw11_gui.egg-info/entry_points.txt
+[1.591s] writing requirements to my_rqt_cfw11_gui.egg-info/requires.txt
+[1.591s] writing top-level names to my_rqt_cfw11_gui.egg-info/top_level.txt
+[1.591s] writing manifest file 'my_rqt_cfw11_gui.egg-info/SOURCES.txt'
+[1.645s] reading manifest file 'my_rqt_cfw11_gui.egg-info/SOURCES.txt'
+[1.647s] writing manifest file 'my_rqt_cfw11_gui.egg-info/SOURCES.txt'
+[1.673s] running build_ext
+[1.673s] Creating /home/ciscor/CISCOR-projects/install/my_rqt_cfw11_gui/lib/python3.12/site-packages/my-rqt-cfw11-gui.egg-link (link to .)
+[1.675s] 
+[1.675s] Installed /home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui
+[1.675s] running symlink_data
+[1.676s] symbolically linking /home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui/plugin.xml -> /home/ciscor/CISCOR-projects/install/my_rqt_cfw11_gui/share/my_rqt_cfw11_gui
+[1.741s] Invoked command in '/home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ciscor/CISCOR-projects/install/my_rqt_cfw11_gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui/build --no-deps symlink_data

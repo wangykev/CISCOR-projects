@@ -1,0 +1,6 @@
+source;share/my_rqt_speed_slider/hook/pythonpath.ps1
+source;share/my_rqt_speed_slider/hook/pythonpath.dsv
+source;share/my_rqt_speed_slider/hook/pythonpath.sh
+source;share/my_rqt_speed_slider/hook/ament_prefix_path.ps1
+source;share/my_rqt_speed_slider/hook/ament_prefix_path.dsv
+source;share/my_rqt_speed_slider/hook/ament_prefix_path.sh

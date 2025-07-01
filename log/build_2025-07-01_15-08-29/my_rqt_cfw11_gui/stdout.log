@@ -1,0 +1,17 @@
+running develop
+running egg_info
+creating my_rqt_cfw11_gui.egg-info
+writing my_rqt_cfw11_gui.egg-info/PKG-INFO
+writing dependency_links to my_rqt_cfw11_gui.egg-info/dependency_links.txt
+writing entry points to my_rqt_cfw11_gui.egg-info/entry_points.txt
+writing requirements to my_rqt_cfw11_gui.egg-info/requires.txt
+writing top-level names to my_rqt_cfw11_gui.egg-info/top_level.txt
+writing manifest file 'my_rqt_cfw11_gui.egg-info/SOURCES.txt'
+reading manifest file 'my_rqt_cfw11_gui.egg-info/SOURCES.txt'
+writing manifest file 'my_rqt_cfw11_gui.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ciscor/CISCOR-projects/install/my_rqt_cfw11_gui/lib/python3.12/site-packages/my-rqt-cfw11-gui.egg-link (link to .)
+
+Installed /home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui
+running symlink_data
+symbolically linking /home/ciscor/CISCOR-projects/build/my_rqt_cfw11_gui/plugin.xml -> /home/ciscor/CISCOR-projects/install/my_rqt_cfw11_gui/share/my_rqt_cfw11_gui

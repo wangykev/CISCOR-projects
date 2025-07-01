@@ -1,0 +1,2 @@
+[rqt_gui_py.plugin]
+cfw11_gui = my_rqt_cfw11_gui.plugin:MyPlugin
