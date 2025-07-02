@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/PKG-INFO
+writing dependency_links to ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/dependency_links.txt
+writing entry points to ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/entry_points.txt
+writing requirements to ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/requires.txt
+writing top-level names to ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/top_level.txt
+reading manifest file '../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/SOURCES.txt'
+writing manifest file '../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rqt_cfw11_gui/gui_widget.py -> /home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/build/lib/rqt_cfw11_gui
+running install
+running install_lib
+copying /home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/build/lib/rqt_cfw11_gui/gui_widget.py -> /home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages/rqt_cfw11_gui
+byte-compiling /home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages/rqt_cfw11_gui/gui_widget.py to gui_widget.cpython-312.pyc
+running install_data
+copying resource/MyPlugin.ui -> /home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/share/rqt_cfw11_gui/resource
+running install_egg_info
+removing '/home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages/rqt_cfw11_gui-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info to /home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages/rqt_cfw11_gui-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/install.log'

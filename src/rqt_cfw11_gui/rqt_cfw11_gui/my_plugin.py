@@ -3,6 +3,8 @@ import threading
 from rqt_gui_py.plugin import Plugin
 from rclpy.executors import SingleThreadedExecutor
 from .gui_widget import CFW11GUI
+from std_msgs.msg import Bool  
+
 
 class MyPlugin(Plugin):
     def __init__(self, context):
@@ -27,9 +29,17 @@ class MyPlugin(Plugin):
         self.spin_thread.start()
 
     def shutdown_plugin(self):
+        # Publish disable command on shutdown
+        if self.node:
+            run_pub = self.node.create_publisher(Bool, 'cfw11/run', 10)
+            run_pub.publish(Bool(data=False))  # 🚨 Disable the motor
+            self.node.get_logger().info("Sent /cfw11/run False on shutdown")
+
         self.executor.shutdown()
         self.node.destroy_node()
         rclpy.shutdown()
+
+        
 
     def save_settings(self, plugin_settings, instance_settings):
         pass

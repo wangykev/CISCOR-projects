@@ -39,8 +39,11 @@ make sure the RS485 USB is plugged in.
 
 ```bash
 cd ~/treadmill #change treadmill to your actual ros2ws
+source /opt/ros/jazzy/setup.bash  # or humble
+colcon build
 source install/setup.bash
-ros2 run cfw11_ros2_control treadmill_node.py
+
+ros2 run cfw11_ros2_control treadmill_node
 ```
 
 ## Starting the GUI

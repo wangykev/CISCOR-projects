@@ -1,0 +1,37 @@
+[1.185s] Invoking command in '/home/ciscor/CISCOR-projects/src/cfw11_ros2_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ciscor/CISCOR-projects/build/cfw11_ros2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cfw11_ros2_control build --build-base /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build install --record /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/install.log --single-version-externally-managed install_data
+[1.507s] running egg_info
+[1.507s] creating ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info
+[1.531s] writing ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/PKG-INFO
+[1.531s] writing dependency_links to ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/dependency_links.txt
+[1.531s] writing entry points to ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/entry_points.txt
+[1.532s] writing requirements to ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/requires.txt
+[1.532s] writing top-level names to ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/top_level.txt
+[1.532s] writing manifest file '../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/SOURCES.txt'
+[1.580s] reading manifest file '../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/SOURCES.txt'
+[1.581s] writing manifest file '../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info/SOURCES.txt'
+[1.581s] running build
+[1.581s] running build_py
+[1.581s] creating /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build
+[1.581s] creating /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib
+[1.582s] creating /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control
+[1.582s] copying cfw11_ros2_control/__init__.py -> /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control
+[1.582s] copying cfw11_ros2_control/treadmill_node.py -> /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control
+[1.582s] running install
+[1.588s] running install_lib
+[1.613s] creating /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control
+[1.613s] copying /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control/__init__.py -> /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control
+[1.613s] copying /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build/lib/cfw11_ros2_control/treadmill_node.py -> /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control
+[1.614s] byte-compiling /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control/__init__.py to __init__.cpython-312.pyc
+[1.614s] byte-compiling /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control/treadmill_node.py to treadmill_node.cpython-312.pyc
+[1.616s] running install_data
+[1.616s] creating /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/ament_index
+[1.616s] creating /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/ament_index/resource_index
+[1.616s] creating /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/ament_index/resource_index/packages
+[1.616s] copying resource/cfw11_ros2_control -> /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/ament_index/resource_index/packages
+[1.616s] copying package.xml -> /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/share/cfw11_ros2_control
+[1.616s] running install_egg_info
+[1.642s] Copying ../../build/cfw11_ros2_control/cfw11_ros2_control.egg-info to /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages/cfw11_ros2_control-0.1.0-py3.12.egg-info
+[1.643s] running install_scripts
+[1.802s] Installing treadmill_node script to /home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/cfw11_ros2_control
+[1.802s] writing list of installed files to '/home/ciscor/CISCOR-projects/build/cfw11_ros2_control/install.log'
+[1.842s] Invoked command in '/home/ciscor/CISCOR-projects/src/cfw11_ros2_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ciscor/CISCOR-projects/build/cfw11_ros2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ciscor/CISCOR-projects/install/cfw11_ros2_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cfw11_ros2_control build --build-base /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/build install --record /home/ciscor/CISCOR-projects/build/cfw11_ros2_control/install.log --single-version-externally-managed install_data

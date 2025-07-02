@@ -1,0 +1,24 @@
+[0.902s] Invoking command in '/home/ciscor/CISCOR-projects/src/rqt_cfw11_gui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rqt_cfw11_gui build --build-base /home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/build install --record /home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/install.log --single-version-externally-managed install_data
+[1.196s] running egg_info
+[1.220s] writing ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/PKG-INFO
+[1.220s] writing dependency_links to ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/dependency_links.txt
+[1.220s] writing entry points to ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/entry_points.txt
+[1.220s] writing requirements to ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/requires.txt
+[1.220s] writing top-level names to ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/top_level.txt
+[1.267s] reading manifest file '../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/SOURCES.txt'
+[1.268s] writing manifest file '../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info/SOURCES.txt'
+[1.268s] running build
+[1.268s] running build_py
+[1.269s] copying rqt_cfw11_gui/gui_widget.py -> /home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/build/lib/rqt_cfw11_gui
+[1.269s] running install
+[1.275s] running install_lib
+[1.298s] copying /home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/build/lib/rqt_cfw11_gui/gui_widget.py -> /home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages/rqt_cfw11_gui
+[1.299s] byte-compiling /home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages/rqt_cfw11_gui/gui_widget.py to gui_widget.cpython-312.pyc
+[1.300s] running install_data
+[1.300s] copying resource/MyPlugin.ui -> /home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/share/rqt_cfw11_gui/resource
+[1.300s] running install_egg_info
+[1.327s] removing '/home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages/rqt_cfw11_gui-0.0.0-py3.12.egg-info' (and everything under it)
+[1.327s] Copying ../../build/rqt_cfw11_gui/rqt_cfw11_gui.egg-info to /home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages/rqt_cfw11_gui-0.0.0-py3.12.egg-info
+[1.328s] running install_scripts
+[1.481s] writing list of installed files to '/home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/install.log'
+[1.509s] Invoked command in '/home/ciscor/CISCOR-projects/src/rqt_cfw11_gui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ciscor/CISCOR-projects/install/rqt_cfw11_gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rqt_cfw11_gui build --build-base /home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/build install --record /home/ciscor/CISCOR-projects/build/rqt_cfw11_gui/install.log --single-version-externally-managed install_data
