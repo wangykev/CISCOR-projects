@@ -1,0 +1,8 @@
+[33mCMake Warning:
+  Ignoring extra path from command line:
+
+   "/home/ciscor/CISCOR-projects/src/my_rqt_cfw11_gui"
+
+[0m
+[0mCMake Error: The source directory "/home/ciscor/CISCOR-projects/src/my_rqt_cfw11_gui" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m

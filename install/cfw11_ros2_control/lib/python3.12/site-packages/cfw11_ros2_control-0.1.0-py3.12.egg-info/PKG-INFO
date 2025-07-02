@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: cfw11-ros2-control
-Version: 0.1.0
-Summary: ROS 2 Modbus control for WEG CFW-11
-Maintainer: ciscor
-Maintainer-email: wangykev@gmail.com
-License: MIT

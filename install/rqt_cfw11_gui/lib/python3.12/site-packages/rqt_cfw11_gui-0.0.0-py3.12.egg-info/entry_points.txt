@@ -1,0 +1,2 @@
+[rqt_gui.plugins]
+my_plugin = rqt_cfw11_gui.my_plugin:MyPlugin

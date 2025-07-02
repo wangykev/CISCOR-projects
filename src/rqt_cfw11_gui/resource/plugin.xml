@@ -1,0 +1,14 @@
+<library path="rqt_cfw11_gui">
+  <class name="CFW11 Plugin"
+         type="rqt_cfw11_gui.my_plugin.MyPlugin"
+         base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Control panel for CFW11 motor
+    </description>
+    <qtgui>
+      <label>CFW11 GUI</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Control interface for WEG CFW11</statustip>
+    </qtgui>
+  </class>
+</library>

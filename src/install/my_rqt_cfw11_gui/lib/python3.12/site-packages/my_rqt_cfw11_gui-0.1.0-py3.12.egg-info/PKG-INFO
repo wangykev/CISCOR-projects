@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-rqt-cfw11-gui
+Version: 0.1.0
+Summary: RQT GUI plugin for controlling a CFW-11 drive over Modbus
+Maintainer: Your Name
+Maintainer-email: you@example.com
+License: MIT

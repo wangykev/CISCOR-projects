@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/ciscor/CISCOR-projects/src/build/my_rqt_cfw11_gui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ciscor/CISCOR-projects/src/my_rqt_cfw11_gui -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ciscor/CISCOR-projects/src/install/my_rqt_cfw11_gui
+[0.020s] [33mCMake Warning:
+[0.020s]   Ignoring extra path from command line:
+[0.020s] 
+[0.020s]    "/home/ciscor/CISCOR-projects/src/my_rqt_cfw11_gui"
+[0.020s] 
+[0.020s] [0m
+[0.021s] [0mCMake Error: The source directory "/home/ciscor/CISCOR-projects/src/my_rqt_cfw11_gui" does not appear to contain CMakeLists.txt.
+[0.021s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.022s] Invoked command in '/home/ciscor/CISCOR-projects/src/build/my_rqt_cfw11_gui' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ciscor/CISCOR-projects/src/my_rqt_cfw11_gui -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ciscor/CISCOR-projects/src/install/my_rqt_cfw11_gui

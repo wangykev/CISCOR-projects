@@ -1,0 +1,7 @@
+<library path="rqt_cfw11_gui">
+  <class name="CFW11 GUI"
+         type="rqt_cfw11_gui.plugin.CFW11GUIPlugin"
+         base_class_type="rqt_gui_py::Plugin">
+    <description>GUI to control and monitor the CFW-11 treadmill</description>
+  </class>
+</library>

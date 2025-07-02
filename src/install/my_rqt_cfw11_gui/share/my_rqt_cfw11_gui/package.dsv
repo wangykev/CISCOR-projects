@@ -1,0 +1,3 @@
+source;share/my_rqt_cfw11_gui/hook/pythonpath.ps1
+source;share/my_rqt_cfw11_gui/hook/pythonpath.dsv
+source;share/my_rqt_cfw11_gui/hook/pythonpath.sh
